@@ -19,11 +19,11 @@ import org.apache.logging.log4j.Logger;
 import java.util.stream.Collectors;
 
 // The value here should match an entry in the META-INF/mods.toml file
-@Mod("tap")
+@Mod(TechAndPotatoes.MODID)
 public class TechAndPotatoes {
-
+    public static final String MODID = "tap";
     // Directly reference a log4j logger.
-    private static final Logger LOGGER = LogManager.getLogger();
+    /*private static final Logger LOGGER = LogManager.getLogger();
 
     public TechAndPotatoes() {
         // Register the setup method for modloading
@@ -81,5 +81,5 @@ public class TechAndPotatoes {
             // register a new block here
             LOGGER.info("HELLO from Register Block");
         }
-    }
+    }*/
 }

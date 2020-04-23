@@ -1,0 +1,36 @@
+{
+  "stats": {
+    "minecraft:dropped": {
+      "tap:refined_potatorium_block": 1,
+      "tap:potatorium": 2,
+      "tap:refined_potatorium": 2
+    },
+    "minecraft:mined": {
+      "tap:refined_potatorium_block": 5
+    },
+    "minecraft:picked_up": {
+      "tap:refined_potatorium": 1,
+      "tap:potatorium": 1,
+      "tap:refined_potatorium_block": 1
+    },
+    "minecraft:used": {
+      "minecraft:diamond_pickaxe": 5,
+      "tap:refined_potatorium_block": 12
+    },
+    "minecraft:custom": {
+      "minecraft:jump": 20,
+      "minecraft:time_since_rest": 2682,
+      "minecraft:crouch_one_cm": 482,
+      "minecraft:play_one_minute": 2682,
+      "minecraft:leave_game": 2,
+      "minecraft:sprint_one_cm": 1143,
+      "minecraft:time_since_death": 2682,
+      "minecraft:walk_one_cm": 5295,
+      "minecraft:sneak_time": 156,
+      "minecraft:fall_one_cm": 209,
+      "minecraft:drop": 5,
+      "minecraft:fly_one_cm": 3548
+    }
+  },
+  "DataVersion": 2230
+}

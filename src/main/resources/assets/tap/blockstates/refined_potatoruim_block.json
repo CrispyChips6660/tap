@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "tap:block/refined_potatorium_block"
+    }
+  }
+}
