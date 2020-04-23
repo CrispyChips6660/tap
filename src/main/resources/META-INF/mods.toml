@@ -35,3 +35,9 @@ technology and potatoes, what else can you possibly want in life?
     versionRange="[2.7, 2.11)"
     ordering="BEFORE"
     side="BOTH"
+[[dependencies.tap]]
+    modId="curios"
+    mandatory=true
+    versionRange="[1.0.6, 2.0.0)"
+    ordering="BEFORE"
+    side="BOTH"
