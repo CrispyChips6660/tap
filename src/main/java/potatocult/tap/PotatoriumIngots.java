@@ -8,6 +8,7 @@ import net.minecraft.item.Rarity;
 import net.minecraftforge.common.ToolType;
 import snownee.kiwi.AbstractModule;
 import snownee.kiwi.KiwiModule;
+import snownee.kiwi.Name;
 import snownee.kiwi.block.ModBlock;
 import snownee.kiwi.item.ModItem;
 
