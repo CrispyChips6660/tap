@@ -38,6 +38,6 @@ technology and potatoes, what else can you possibly want in life?
 [[dependencies.tap]]
     modId="curios"
     mandatory=true
-    versionRange="[1.0.6, 2.0.0)"
+    versionRange="[FORGE-1.15.2-2.0.2.2,FORGE-1.15.2-3.0.0.0)"
     ordering="BEFORE"
     side="BOTH"
