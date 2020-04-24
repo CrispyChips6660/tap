@@ -2,7 +2,6 @@ package potatocult.tap;
 
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.Items;
 
 import java.util.function.Supplier;
 
