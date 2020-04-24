@@ -19,8 +19,6 @@ import org.apache.logging.log4j.Logger;
 
 import java.util.stream.Collectors;
 
-import static com.sun.xml.internal.ws.spi.db.BindingContextFactory.LOGGER;
-
 // The value here should match an entry in the META-INF/mods.toml file
 @Mod(TechAndPotatoes.MODID)
 public class TechAndPotatoes {
@@ -34,4 +32,5 @@ public class TechAndPotatoes {
             return "Hello world";
         });
 */
-    }
+
+}
