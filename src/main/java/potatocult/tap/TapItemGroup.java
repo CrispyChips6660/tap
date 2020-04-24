@@ -11,6 +11,7 @@ public class TapItemGroup extends ItemGroup {
 
     @Override
     public ItemStack createIcon() {
-        return new ItemStack(PotatoriumIngots.REFINED_POTATORIUM_BLOCK);
+        return new ItemStack(MainModule.REFINED_POTATORIUM_BLOCK);
     }
+
 }

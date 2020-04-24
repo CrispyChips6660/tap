@@ -1,6 +1,7 @@
 {
   "item.tap.potatorium": "Raw Potatorium Pile",
   "item.tap.refined_potatorium": "Refined Potatorium Ingot",
+  "item.tap.mystical_potato": "Mystical Potato",
   "block.tap.refined_potatorium_block": "Refined Potatorium Block",
   "itemGroup.tap": "Tech and Potatoes"
 }
