@@ -13,10 +13,11 @@ import snownee.kiwi.block.ModBlock;
 import snownee.kiwi.item.ModItem;
 
 @KiwiModule
+@KiwiModule.Group("tap")
 public class PotatoriumIngots extends AbstractModule {
-    public static final Item REFINED_POTATORIUM = new ModItem(new Item.Properties().rarity(Rarity.RARE).group(TapItemGroup.TAP_ITEMS));
+    public static final Item REFINED_POTATORIUM = new ModItem(new Item.Properties().rarity(Rarity.RARE));
 
-    public static final Item POTATORIUM = new ModItem(new Item.Properties().group(TapItemGroup.TAP_ITEMS));
+    public static final Item POTATORIUM = new ModItem(new Item.Properties());
 
     //super stupid long line warning
     @KiwiModule.Group
@@ -25,4 +26,5 @@ public class PotatoriumIngots extends AbstractModule {
             .harvestLevel(2).harvestTool(ToolType.PICKAXE)
             .hardnessAndResistance(5.0F, 6.0F)
             .sound(SoundType.CROP));
+    //I don't need a blockitem because Kiwi automatically does that
 }
