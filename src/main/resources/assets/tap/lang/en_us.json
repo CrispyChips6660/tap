@@ -4,6 +4,6 @@
   "item.tap.mystical_potato": "Mystical Potato",
   "block.tap.refined_potatorium_block": "§eRefined Potatorium Block",
   "itemGroup.tap": "Tech and Potatoes",
-  "tap.item.refined_potatorium.tooltip.noshift": "§eUsed in crafting and can be used to forge powerful tools.",
+  "tap.item.refined_potatorium.tooltip.noshift": "§eYour hand trembles as you inspect this godly substance.",
   "tap.item.refined_potatorium.tooltip.shift": "§eUsed in crafting and can be used to forge powerful tools."
 }
