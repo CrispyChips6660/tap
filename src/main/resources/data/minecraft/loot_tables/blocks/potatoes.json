@@ -71,10 +71,10 @@
           "conditions": [
             {
               "condition": "minecraft:random_chance",
-              "chance": 1
+              "chance": 0.5
             }
           ],
-          "name": "tap:mystic_potato"
+          "name": "tap:mystical_potato"
         }
       ],
       "conditions": [

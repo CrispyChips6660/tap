@@ -1,13 +1,13 @@
 package potatocult.tap.item;
 
-import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.api.distmarker.OnlyIn;
+import snownee.kiwi.item.ModItem;
 
-public class ItemMysticalPotato extends Item {
+public class ItemGlowing extends ModItem {
 
-    public ItemMysticalPotato(Properties properties) {
+    public ItemGlowing(Properties properties) {
         super(properties);
     }
 
