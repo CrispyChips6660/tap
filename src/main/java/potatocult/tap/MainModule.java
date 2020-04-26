@@ -25,8 +25,8 @@ public class MainModule extends AbstractModule {
     public static final TapItemGroup instance = new TapItemGroup(ItemGroup.GROUPS.length, "tap");
 
     public static final Item REFINED_POTATORIUM = new ItemWithAdvancedDescription(new Item.Properties().rarity(Rarity.RARE),
-            "§eYour hands tremble while holding this holy material.",
-            "\n" + "§2Used in crafting and can be used to forge powerful tools.");
+            "tap.item.refined_potatorium.tooltip.noshift",
+            "tap.item.refined_potatorium.tooltip.shift");
     public static final Item MYSTICAL_POTATO = new ItemGlowing(new Item.Properties().rarity(Rarity.UNCOMMON));
     public static final Item POTATORIUM = new ModItem(new Item.Properties().rarity(Rarity.UNCOMMON));
 

@@ -1,7 +1,9 @@
 {
-  "item.tap.potatorium": "土豆粉末团",
-  "item.tap.refined_potatorium": "土豆合金锭",
-  "item.tap.mystical_potato": "神秘土豆",
+  "item.tap.potatorium": "土豆合金粉",
+  "item.tap.refined_potatorium": "土豆合金",
+  "item.tap.mystical_potato": "神秘马铃薯",
   "block.tap.refined_potatorium_block": "§e土豆合金块",
-  "itemGroup.tap": "科技与马铃薯"
+  "itemGroup.tap": "科技与马铃薯",
+  "tap.item.refined_potatorium.tooltip.noshift": "§e你颤抖着举起了这一块神圣的材料。",
+  "tap.item.refined_potatorium.tooltip.shift": "§e合成材料，同时可以制作一套高级工具。"
 }

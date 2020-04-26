@@ -4,16 +4,16 @@ package potatocult.tap.item;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.util.ITooltipFlag;
 import net.minecraft.client.util.InputMappings;
-import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.text.ITextComponent;
 import net.minecraft.util.text.TranslationTextComponent;
 import net.minecraft.world.World;
 import org.lwjgl.glfw.GLFW;
+import snownee.kiwi.item.ModItem;
 
 import java.util.List;
 
-public class ItemWithAdvancedDescription extends Item {
+public class ItemWithAdvancedDescription extends ModItem {
     String NoShift;
     String Shift;
 
