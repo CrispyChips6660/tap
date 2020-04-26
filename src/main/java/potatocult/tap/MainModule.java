@@ -9,6 +9,7 @@ import net.minecraft.item.Rarity;
 import net.minecraftforge.common.ToolType;
 import net.minecraftforge.fml.common.Mod;
 import potatocult.tap.item.ItemMysticalPotato;
+import potatocult.tap.itemgroup.TapItemGroup;
 import snownee.kiwi.AbstractModule;
 import snownee.kiwi.KiwiModule;
 import snownee.kiwi.block.ModBlock;

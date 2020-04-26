@@ -1,11 +1,12 @@
-package potatocult.tap;
+package potatocult.tap.itemgroup;
 
 
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
+import potatocult.tap.MainModule;
 
 public class TapItemGroup extends ItemGroup {
-    TapItemGroup(int index, String label) {
+    public TapItemGroup(int index, String label) {
         super(index, label);
     }
 
