@@ -29,7 +29,6 @@ public class MainModule extends AbstractModule {
             "tap.item.refined_potatorium.tooltip.shift");
     public static final Item MYSTICAL_POTATO = new ItemGlowing(new Item.Properties().rarity(Rarity.UNCOMMON));
     public static final Item POTATORIUM = new ModItem(new Item.Properties().rarity(Rarity.UNCOMMON));
-
     public static final Block REFINED_POTATORIUM_BLOCK =
             new ModBlock(Block.Properties.create(Material.IRON)
                     .harvestLevel(2).harvestTool(ToolType.PICKAXE)
