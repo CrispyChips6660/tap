@@ -20,6 +20,7 @@ import snownee.kiwi.item.ModItem;
 @KiwiModule.Group("tap")
 @Mod(MainModule.MODID)
 public class MainModule extends AbstractModule {
+
     public static final String MODID = "tap";
 
     public static final TapItemGroup instance = new TapItemGroup(ItemGroup.GROUPS.length, "tap");
@@ -27,12 +28,15 @@ public class MainModule extends AbstractModule {
     public static final Item REFINED_POTATORIUM = new ItemWithAdvancedDescription(new Item.Properties().rarity(Rarity.RARE),
             "tap.item.refined_potatorium.tooltip.noshift",
             "tap.item.refined_potatorium.tooltip.shift");
+
     public static final Item MYSTICAL_POTATO = new ItemGlowing(new Item.Properties().rarity(Rarity.UNCOMMON));
+
     public static final Item POTATORIUM = new ModItem(new Item.Properties().rarity(Rarity.UNCOMMON));
+
     public static final Block REFINED_POTATORIUM_BLOCK =
             new ModBlock(Block.Properties.create(Material.IRON)
                     .harvestLevel(2).harvestTool(ToolType.PICKAXE)
                     .hardnessAndResistance(5.0F, 6.0F)
                     .sound(SoundType.CROP));
-    //No need a BlockItem because Kiwi automatically creates that.
+
 }
