@@ -101,7 +101,5 @@ dependencies {
     minecraft 'net.minecraftforge:forge:1.15.2-31.1.9'
     compile files("Kiwi-1.15.2-2.7.0-deobf.jar")
     compile files("curios-FORGE-1.15.2-2.0.2.2-deobf.jar")
-    //compileOnly files("jei-1.15.2-6.0.0.3-api.jar")
-    // at runtime, use the full JEI jar
-    //runtimeOnly files("jei-1.15.2-6.0.0.3.jar")
+
 }
